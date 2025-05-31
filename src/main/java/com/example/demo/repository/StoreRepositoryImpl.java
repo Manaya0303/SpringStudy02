@@ -16,7 +16,7 @@ public class StoreRepositoryImpl implements StoreRepository {
 	public void add(Store store) {
 		
 		String sql = 
-				"INSERT INTO m_restautant" +
+				"INSERT INTO m_restaurant" +
 				"(restaurant_name, catch_phrase) " +
 				"VALUES (?, ?)";
 		jdbcTemplate.update(sql, store.getRestaurantName(),

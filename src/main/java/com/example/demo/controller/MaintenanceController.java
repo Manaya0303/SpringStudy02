@@ -57,7 +57,7 @@ public class MaintenanceController {
 	}
 	
 	/*--- 店舗登録リクエスト（登録確認画面より） ---*/
-	@PostMapping("/comfirm-regist-store")
+	@PostMapping("/confirm-regist-store")
 	public String confirmRegistStore(
 			@Validated StoreRegistForm form,
 			BindingResult result,
